@@ -1,0 +1,2 @@
+set(vitaslam_MESSAGE_FILES "/home/samia/ratslam/whiskeye_ws/src/vita-slam/msg/TopologicalAction.msg;/home/samia/ratslam/whiskeye_ws/src/vita-slam/msg/TopologicalEdge.msg;/home/samia/ratslam/whiskeye_ws/src/vita-slam/msg/TopologicalMap.msg;/home/samia/ratslam/whiskeye_ws/src/vita-slam/msg/TopologicalNode.msg;/home/samia/ratslam/whiskeye_ws/src/vita-slam/msg/CombinedTemplateMessage.msg")
+set(vitaslam_SERVICE_FILES "")

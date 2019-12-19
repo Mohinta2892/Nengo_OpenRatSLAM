@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/install
+
+Name: vitaslam
+Description: Description of vitaslam
+Version: 0.0.0
+Cflags: -I/home/samia/ratslam/whiskeye_ws/install/include
+Libs: -L/home/samia/ratslam/whiskeye_ws/install/lib 
+Requires: message_runtime geometry_msgs std_msgs

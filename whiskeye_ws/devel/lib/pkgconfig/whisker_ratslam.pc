@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/devel
+
+Name: whisker_ratslam
+Description: Description of whisker_ratslam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samia/ratslam/whiskeye_ws/devel/lib 
+Requires: 

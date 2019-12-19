@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/install
+
+Name: master_node
+Description: Description of master_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samia/ratslam/whiskeye_ws/install/lib 
+Requires: 

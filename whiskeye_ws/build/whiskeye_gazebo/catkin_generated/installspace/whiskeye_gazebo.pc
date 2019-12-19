@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/install
+
+Name: whiskeye_gazebo
+Description: Description of whiskeye_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samia/ratslam/whiskeye_ws/install/lib 
+Requires: 

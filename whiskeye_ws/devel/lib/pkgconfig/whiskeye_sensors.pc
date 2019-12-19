@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/devel
+
+Name: whiskeye_sensors
+Description: Description of whiskeye_sensors
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samia/ratslam/whiskeye_ws/devel/lib 
+Requires: 

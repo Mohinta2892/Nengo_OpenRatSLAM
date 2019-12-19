@@ -1,0 +1,2 @@
+datalogger:master_node:vitaslam:whisker_ratslam:whiskeye_controller:whiskeye_gazebo:whiskeye_sensors
+-DCATKIN_DEVEL_PREFIX=/home/samia/ratslam/whiskeye_ws/devel -DCMAKE_INSTALL_PREFIX=/home/samia/ratslam/whiskeye_ws/install -G Unix Makefiles

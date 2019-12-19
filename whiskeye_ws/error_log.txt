@@ -1,0 +1,70 @@
+Base path: /home/samia/ratslam/whiskeye_ws
+Source space: /home/samia/ratslam/whiskeye_ws/src
+Build space: /home/samia/ratslam/whiskeye_ws/build
+Devel space: /home/samia/ratslam/whiskeye_ws/devel
+Install space: /home/samia/ratslam/whiskeye_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/samia/ratslam/whiskeye_ws/build"
+####
+####
+#### Running command: "make -j12 -l12" in "/home/samia/ratslam/whiskeye_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  2%] Built target geometry_msgs_generate_messages_lisp
+[ 15%] Built target vitaslam
+[ 15%] Built target geometry_msgs_generate_messages_eus
+[ 15%] Built target std_msgs_generate_messages_eus
+[ 15%] Built target _vitaslam_generate_messages_check_deps_CombinedTemplateMessage
+[ 15%] Built target std_msgs_generate_messages_cpp
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target _vitaslam_generate_messages_check_deps_TopologicalAction
+[ 15%] Built target _vitaslam_generate_messages_check_deps_TopologicalEdge
+[ 15%] Built target _vitaslam_generate_messages_check_deps_TopologicalNode
+[ 15%] Built target _vitaslam_generate_messages_check_deps_TopologicalMap
+[ 17%] Linking CXX executable /home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_lv
+[ 20%] Linking CXX executable /home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_em
+[ 23%] Linking CXX executable /home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_pc
+[ 48%] Built target vitaslam_generate_messages_nodejs
+[ 51%] Built target vitaslam_generate_messages_py
+[ 64%] Built target vitaslam_generate_messages_lisp
+[ 79%] Built target vitaslam_generate_messages_eus
+[ 92%] Built target vitaslam_generate_messages_cpp
+[ 92%] Built target vitaslam_generate_messages
+CMakeFiles/vitaslam_pc.dir/src/main_pc.cpp.o: In function `irr::scene::ISceneNode::getMaterial(unsigned int)':
+main_pc.cpp:(.text._ZN3irr5scene10ISceneNode11getMaterialEj[_ZN3irr5scene10ISceneNode11getMaterialEj]+0xe): undefined reference to `irr::video::IdentityMaterial'
+CMakeFiles/vitaslam_pc.dir/src/main_pc.cpp.o: In function `PathNode::render()':
+main_pc.cpp:(.text._ZN8PathNode6renderEv[_ZN8PathNode6renderEv]+0x2fd): undefined reference to `irr::core::IdentityMatrix'
+CMakeFiles/vitaslam_pc.dir/src/main_pc.cpp.o: In function `vitaslam::PosecellScene::PosecellScene(boost::property_tree::basic_ptree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&, vitaslam::PosecellNetwork*)':
+main_pc.cpp:(.text._ZN8vitaslam13PosecellSceneC2ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_15PosecellNetworkE[_ZN8vitaslam13PosecellSceneC5ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_15PosecellNetworkE]+0x130): undefined reference to `createDevice'
+collect2: error: ld returned 1 exit status
+vita-slam/CMakeFiles/vitaslam_pc.dir/build.make:134: recipe for target '/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_pc' failed
+make[2]: *** [/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_pc] Error 1
+CMakeFiles/Makefile2:1073: recipe for target 'vita-slam/CMakeFiles/vitaslam_pc.dir/all' failed
+make[1]: *** [vita-slam/CMakeFiles/vitaslam_pc.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/vitaslam_em.dir/src/main_em.cpp.o: In function `irr::scene::ISceneNode::getMaterial(unsigned int)':
+main_em.cpp:(.text._ZN3irr5scene10ISceneNode11getMaterialEj[_ZN3irr5scene10ISceneNode11getMaterialEj]+0xe): undefined reference to `irr::video::IdentityMaterial'
+CMakeFiles/vitaslam_em.dir/src/main_em.cpp.o: In function `PathNode::render()':
+main_em.cpp:(.text._ZN8PathNode6renderEv[_ZN8PathNode6renderEv]+0x2fd): undefined reference to `irr::core::IdentityMatrix'
+CMakeFiles/vitaslam_em.dir/src/main_em.cpp.o: In function `vitaslam::ExperienceMapScene::ExperienceMapScene(boost::property_tree::basic_ptree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&, vitaslam::ExperienceMap*)':
+main_em.cpp:(.text._ZN8vitaslam18ExperienceMapSceneC2ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_13ExperienceMapE[_ZN8vitaslam18ExperienceMapSceneC5ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_13ExperienceMapE]+0x139): undefined reference to `createDevice'
+collect2: error: ld returned 1 exit status
+vita-slam/CMakeFiles/vitaslam_em.dir/build.make:134: recipe for target '/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_em' failed
+make[2]: *** [/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_em] Error 1
+CMakeFiles/Makefile2:1110: recipe for target 'vita-slam/CMakeFiles/vitaslam_em.dir/all' failed
+make[1]: *** [vita-slam/CMakeFiles/vitaslam_em.dir/all] Error 2
+CMakeFiles/vitaslam_lv.dir/src/main_lv.cpp.o: In function `vitaslam::LocalViewScene::LocalViewScene(boost::property_tree::basic_ptree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&, vitaslam::LocalTemplateMatch*)':
+main_lv.cpp:(.text._ZN8vitaslam14LocalViewSceneC2ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_18LocalTemplateMatchE[_ZN8vitaslam14LocalViewSceneC5ERN5boost13property_tree11basic_ptreeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_St4lessIS9_EEEPNS_18LocalTemplateMatchE]+0x13b): undefined reference to `createDevice'
+collect2: error: ld returned 1 exit status
+vita-slam/CMakeFiles/vitaslam_lv.dir/build.make:175: recipe for target '/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_lv' failed
+make[2]: *** [/home/samia/ratslam/whiskeye_ws/devel/lib/vitaslam/vitaslam_lv] Error 1
+CMakeFiles/Makefile2:1574: recipe for target 'vita-slam/CMakeFiles/vitaslam_lv.dir/all' failed
+make[1]: *** [vita-slam/CMakeFiles/vitaslam_lv.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoking "make -j12 -l12" failed
+

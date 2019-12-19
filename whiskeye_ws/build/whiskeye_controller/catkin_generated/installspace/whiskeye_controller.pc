@@ -1,0 +1,8 @@
+prefix=/home/samia/ratslam/whiskeye_ws/install
+
+Name: whiskeye_controller
+Description: Description of whiskeye_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/samia/ratslam/whiskeye_ws/install/lib 
+Requires: 
